@@ -387,7 +387,7 @@
         {
          "columns":4,
          "firstgid":1,
-         "image":"..\/..\/..\/GameJam_14_05_22\/test_proto_V1.png",
+         "image":"test_proto_V1.png",
          "imageheight":128,
          "imagewidth":128,
          "margin":0,
@@ -396,6 +396,38 @@
          "tilecount":16,
          "tileheight":32,
          "tiles":[
+                {
+                 "id":1,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":32,
+                             "id":1,
+                             "name":"hide",
+                             "properties":[
+                                    {
+                                     "name":"hide",
+                                     "type":"bool",
+                                     "value":true
+                                    }],
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":32,
+                             "x":0,
+                             "y":0
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    }
+                }, 
                 {
                  "id":6,
                  "objectgroup":
