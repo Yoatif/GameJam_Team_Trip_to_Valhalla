@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" /><title>Game Jam game</title>
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+        <style type="text/css"> body { margin: 0; }</style>
+    </head>
+
+
+    <body>
+        
+        <script src="src/Titlescreen.js"></script>
+        <!--<script src="src/class Character.js"></script>-->
+        <script src="src/scene1.js"></script>
+        <script src="src/scene2.js"></script>
+        <script src="src/scene3.js"></script>
+        <script src="src/gameOver.js"></script>-->
+        <script type="text/javascript">
+
+        var config = {
+            type: Phaser.AUTO,
+            width: 1400, height: 800,
+            physics: {
+            default: 'arcade',
+            arcade: {
+            gravity: { y : 300 },
+            debug: true
+            }},
+            scene : [Titlescreen, scene1,scene2,scene3] //Titlescreen scene2 scene3 à rajouter au début
+                
+            };
+                new Phaser.Game(config);
+
+
+
+
+
+        </script>
+
+    </body>
